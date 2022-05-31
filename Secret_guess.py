@@ -1,4 +1,6 @@
-secret_number = 7
+import random
+secret_number = random.randint(0,10)
+#print(secret_number)
 guess_count = 0
 guess_limit = 3
 while guess_count < guess_limit: 
