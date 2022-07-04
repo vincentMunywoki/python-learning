@@ -12,7 +12,7 @@ def clearDisplay():
     op=""
     iptext.set(op)
 calc=Tk()
-calc.title("TechVidvan Calculator")
+calc.title("VincenTech Calculator")
 op=""
 iptext=StringVar()
 iparea=Entry(calc,font=('large,_font',15,'bold'),bd=10,justify="right",insertwidth=4,textvariable=iptext).grid(columnspan=10)
